@@ -17,15 +17,13 @@ public class Application {
 		// Metodo toLowerCase: transformar a frase com todas as letras minusculas
 		System.out.println(toLowerCaseMethod());
 
-		// Metodo toLowerCase: transformar a frase com todas as letras maiusculas
+		// Metodo toUpperCase: transformar a frase com todas as letras maiusculas
 		System.out.println(toUpperCaseMethod());
 
-		// Metodo indexOf: localiza a posicao da primeira ocorrencia de um caractere -
-		// case sensitive
+		// Metodo indexOf: localiza a posicao da primeira ocorrencia de um caractere - case sensitive
 		System.out.println(indexOfMethod());
 
-		// Metodo lastOf: localiza a posicao da ultima ocorrencia de um caractere - case
-		// sensitive
+		// Metodo lastOf: localiza a posicao da ultima ocorrencia de um caractere - case sensitive
 		System.out.println(lastIndexMethod());
 	}
 
