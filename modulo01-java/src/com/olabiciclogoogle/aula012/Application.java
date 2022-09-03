@@ -1,71 +1,36 @@
 package com.olabiciclogoogle.aula012;
 
+import java.util.Random;
+
 /**
  * @author Marlene
  * @date 05-12-2022
  * 
- * Modulo 2: Programacao Orientada a Objetos 
- * Aula 012: Objetos
+ * Modulo 1: Algoritmo e Estrutura de Dados 
+ * Aula 012: Estruturas Nao Lineares - Arvore Binaria e Grafos
  */
 
 public class Application {
 	public static void main(String[] args) {
-		Cachorro.fazerBarulho();
 		
-		//Instanciar uma classe 
-		Pessoa pessoa = new Pessoa();
-		pessoa.name = "Julio Cesar Brito da Silva";
+		//Arvore com valores aleatorios
+		Random random = new Random();
+		Trees tree = new Trees();
 		
-		Pessoa aluno1 = new Pessoa();
-		aluno1.name = "Larissa Botelho";
-		
-		Pessoa aluno2 = new Pessoa();
-		aluno2.name = "Diego Simoes";
+		for(int i = 0; i < 10; i++)
+			tree.insert(random.nextInt(100), tree.root);
 		
 		
-		//Inicializacao por referencia
-		HomemAranha homemAranha1 = new HomemAranha();
-		homemAranha1.name = "Tobey Maguire";
+		System.out.print("PreOrder: ");
+		tree.preOrder(tree.root);
 		
-		HomemAranha homemAranha2 = new HomemAranha();
-		homemAranha2.universe = 2;
+		System.out.println("\nInOrder: ");
+		tree.inOrder(tree.root);
 		
-		//Inicializacao pelo metodo construtor
-		HomemAranha homemAranha3 = new HomemAranha(3, "Tom Holland");
+		System.out.println("\nPosOrder: ");
+		tree.posOrder(tree.root);
+		
 	}
 }
 
 
-// Exemplo de Objetos em Java
-
-class Cachorro {
-	
-	//Metodo: Comportamentos de um objeto
-	public static void fazerBarulho() {
-		System.out.println("Aul aul");
-	}
-		
-}
-
-class Pessoa {
-	//Atributos
-	String name;
-
-	public Pessoa() { }
-	
-}
-
-
-class Car {
-	private String nameCar;
-
-	//Metodos gets e sets - protecao dos atributos desta classe
-	public String getNomeCarro() {
-		return nameCar;
-	}
-
-	public void setNomeCarro(String nomeCarro) {
-		this.nameCar = nomeCarro;
-	}
-	
-}
