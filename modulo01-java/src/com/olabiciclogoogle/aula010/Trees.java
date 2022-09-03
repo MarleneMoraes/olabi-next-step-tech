@@ -31,7 +31,8 @@ public class Trees {
 			else
 				insert(value, place.right);
 	}
-
+	
+	//PreOrder: primeiro imprime e depois percorre a arvore
 	void preOrder(Node place) {
 		System.out.println(" " + place.value);
 
