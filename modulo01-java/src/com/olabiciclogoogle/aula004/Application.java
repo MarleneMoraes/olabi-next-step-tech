@@ -20,11 +20,9 @@ public class Application {
 		// Diferença de tempo entre concatenacao de strings e o StringBuilder
 		System.out.println(timeBuilder());
 		System.out.println(timeString());
+		
 
-		/*
-		 * -----------------------------------------------------------------------------
-		 * Exemplos de metodos para manipulacao de strings
-		 */
+		// Exemplos de metodos para manipulacao de strings
 
 		String originalString = "abcde FGHIJ ABC abc DEFG";
 
