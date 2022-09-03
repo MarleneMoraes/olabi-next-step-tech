@@ -4,7 +4,7 @@ package com.olabiciclogoogle.aula005;
  * @author Marlene
  * @date 04-26-2022
  * 
- * Módulo 1: Algoritmo e Estrutura de Dados 
+ * Modulo 1: Algoritmo e Estrutura de Dados 
  * Aula 005: Notacao Big O (Big Notation O) e Arrays
  */
 
