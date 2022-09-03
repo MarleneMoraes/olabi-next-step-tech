@@ -22,7 +22,7 @@ public class Exercises {
 	
  /*
  * { Exercicio coletivo I
- *   Escrever um programa Java para testar se um mapa contém um mapeamento 
+ *   Escrever um programa Java para testar se um mapa contï¿½m um mapeamento 
  *   para a chave especificada.
  */
 	public static void ex001(Scanner s) {
@@ -41,7 +41,7 @@ public class Exercises {
 		if (result == true)
 			System.out.println("Next Stepper " + key + " foi encontrado(a).");
 		else 
-			System.out.println("Não foram encontrados Next Steppers com este nome.");
+			System.out.println("Nï¿½o foram encontrados Next Steppers com este nome.");
 	
 		
 	}
@@ -69,7 +69,7 @@ public class Exercises {
 	 * { Exercicio coletivo III
 	 *   (Hashtable) Uma empresa precisa de um programa de computador que efetue o 
 	 *   cadastro de compradores: os compradores deverao ser alocados e recuperados 
-	 *   rapidamente da memória.
+	 *   rapidamente da memoria.
 	 *   Crie o programa para esta empresa, alocando os "Compradores" em uma hash table
 	 *   - Utilizando a API do Java
 	 *   - Use sua criatividade para escolher os componentes que serao utilizados para 

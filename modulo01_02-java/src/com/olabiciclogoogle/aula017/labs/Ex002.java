@@ -11,7 +11,7 @@ public class Ex002 {
 
 /*
  * { Exercicio coletivo II 
- *   Faça um programa de agenda telefônica, com as classes Agenda e Contato.
+ *   Faca um programa de agenda telefonica, com as classes Agenda e Contato.
  */
 
 class TelephoneList {

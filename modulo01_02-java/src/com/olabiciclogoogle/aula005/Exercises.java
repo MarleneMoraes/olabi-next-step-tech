@@ -13,7 +13,7 @@ public class Exercises {
 	public static void exercicioI() {
 		/*
 		 * { Exercicio coletivo I
-		 *   Busque o índice de cada elemento no array e exiba-o.
+		 *   Busque o indice de cada elemento no array e exiba-o.
 		 */
 		
 		int[] numbers = {1, 2, 3, 4, 5};

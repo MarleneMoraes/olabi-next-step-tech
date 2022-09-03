@@ -5,7 +5,7 @@ package com.olabiciclogoogle.aula017;
  * @date 06-02-2022
  * 
  * Modulo 2: Programacao Orientada a Objetos 
- * Aula 017: Herança, Encapsulamento, Polimorfismo, Abstracao 
+ * Aula 017: Orientacao a objetos (classes, objetos, atributos, construtores, metodos) e seus pilares
  */
 
 public class Pessoa {
@@ -21,7 +21,7 @@ public class Pessoa {
 
 	// metodos construtores: constroi o objeto da classe pessoa
 	public Pessoa() {
-		super(); // chama o método construtor da classe pai (no caso, a classe Object)
+		super(); // chama o metodo construtor da classe pai (no caso, a classe Object)
 	}
 
 	// Polimorfismo: mesma assinatura, mas comportamentos diferentes
