@@ -1,6 +1,5 @@
 package com.olabiciclogoogle.aula016;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 /**
