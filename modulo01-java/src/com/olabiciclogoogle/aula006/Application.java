@@ -9,7 +9,7 @@ import java.util.List;
  * @author Marlene
  * @date 04-28-2022
  * 
- * M�dulo 1: Algoritmo e Estrutura de Dados 
+ * Modulo 1: Algoritmo e Estrutura de Dados 
  * Aula 006: ForEach em Java, LinkedList
  */
 
