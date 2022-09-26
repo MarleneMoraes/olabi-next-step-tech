@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*anula a soma de margin e padding a altura*/
+}
+
+body {
+    display: flex;
+    flex-direction: row; /* default */
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container {
+    margin-top: 20px;
+    padding: 10px 15px;
+    height: 400px;
+    width: 400px;
+}
+
+
+/* Todos os elementos que contém a classe container dentro de body terão estas características */
+body > .container {
+    background-color: blue;
+}
+
+
