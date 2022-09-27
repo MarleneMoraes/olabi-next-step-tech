@@ -9,6 +9,8 @@ footer  {
     display: flex;
     align-items: center;
     padding: 20px;
+    background-color: var(--bg-purple);
+    color: var(--light);
 }
 
 #header {
@@ -37,7 +39,7 @@ footer  {
     margin: 28px auto;
     padding: 28px;
     max-width: 400px;
-    box-shadow:  0.5px 0.5px 20px var(--dark);
+    box-shadow:  0.5px 0.5px 20px var(--gray);
 }
 
 .card,
@@ -51,6 +53,10 @@ footer  {
 
 .card-text {
     text-align: justify;
+}
+
+.card-text h3 {
+    margin-bottom: 3px;
 }
 
 .card-img, 

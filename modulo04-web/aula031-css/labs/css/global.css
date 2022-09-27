@@ -1,15 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap');
+
 :root {
   --dark: #000000;
   --light: #ffffff;
+  --gray: #b8b5b5;
   --bg-section: #f5f5f5;
   --purple: #976AfB;
   --light-purple: #ae8bf9;
+  --bg-purple: #645780;
 }
 
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;  
+  box-sizing: border-box; 
+  font-family: 'Inter Tight', sans-serif; 
 }
 
 body {
