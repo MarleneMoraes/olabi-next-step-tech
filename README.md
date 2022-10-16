@@ -29,3 +29,7 @@ Atividades das aulas desenvolvidas no Pilar do Conhecimento Técnico da Olabi du
   - CSS 
   - JavaScript
   - React
+
+- Módulo 05: Banco de Dados
+  - Banco de Dados Relacional
+  - SQL
