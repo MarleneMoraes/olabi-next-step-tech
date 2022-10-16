@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*main {
+    
+    display: grid;  por padrão, é um display block e ocupa 100% da largura da tela 
+    grid-template-columns: 100px 400px 100px;  cria a estrutura de coluna de grid: quantas colunas e quais tamanhos serao apresentados
+    grid-template-rows: 20% 60% 20%;  cria a estrutura de linhas de grid: quantas linhas e quais tamanhos serao apresentados 
+    
+        Função repeat: repetição no template e divisão igualitária
+        grid-template-columns: repeat(3, 1fr)
+}
+
+main > div {
+    background-color: lightblue;
+    border: 2px solid black
+}
+
+*/
+
+section {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+
+    /* Template Areas */
+    grid-template-areas: 
+    "header header header"
+    "aside main main"
+    "footer footer footer";
+    background-color: lightskyblue;
+    column-gap: 20px; /* distância entre colunas */
+    row-gap: 30px; /* distância entre linhas */
+    height: 100vh;
+
+
+}
+
+section > header {
+    grid-area: header;
+    background-color: lightblue;
+}
+
+section > aside {
+    grid-area: aside;
+    background-color: lightgoldenrodyellow;
+}
+
+section > main {
+    grid-area: main;
+    background-color: lightgray;
+}
+
+section > footer {
+    grid-area: footer;
+    background-color: lightsalmon;
+}

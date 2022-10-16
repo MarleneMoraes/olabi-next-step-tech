@@ -1,0 +1,119 @@
+<!--
+    Dicas valiosas
+    Guia de flexbox: https://origamid.com/projetos/flexbox-guia-completo/
+    Paleta de cores: https://www.color-hex.com/
+    Fontes: https://fonts.google.com/
+
+    O que eu espero:
+    - As 3 seções: Hero, Conheça Mais sobre e contato
+    - Dentro de contato, é obrigatório ter um formulário
+    - HTML5 semântico
+    - Descrição de todas as imagens inseridas no site, o atributo que adiciona a descrição a imagem 
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Dev Googlers</title>
+</head>
+
+<body>
+    <main>
+        <header id="header" class="bg-primary">
+            <nav id="menu">
+                <ul id="nav-bar">
+                    <li class="nav-link">
+                        <a href="#home">
+                            <strong>Home</strong>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#about-us">
+                            <strong>Sobre</strong>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#contact">
+                            <strong>Contato</strong>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="home" class="bg-primary home-section">
+            <div>
+                <div class="home-text">
+                    <h1 id="home-title">Desenvolvendo códigos e mudando vidas. Essa é a nossa missão.</h1>
+                    <button class="btn btn-home">Comece já!</button>
+                </div>
+            </div>
+            <div></div>
+        </section>
+
+        <section id="about-us">
+            <h2 class="section-title">Conheça mais sobre a gente</h2>
+            <article>
+                <div class="card card-about">
+                    <img src="https://github.com/danilogc4.png" alt="foto de Danilo Gonçalves">
+                    <div class="card-text">
+                        <h3><a href="https://github.com/danilogc4" target="_blank">Danilo Gonçalves</a></h3>
+                        <p>Desenvolvedor C++ e Engenheiro de Software na equipe Search, do Google.</p>
+                    </div>
+                </div>
+                <div class="card card-about">
+                    <img src="https://github.com/diegodsm314.png" alt="foto de Diego Simões">
+                    
+                    <div class="card-text">
+                        <h3><a href="https://github.com/diegodsm314" target="_blank">Diego Simões</a> </h3>
+                        <p>Desenvolvedor Java | Python e Engenheiro de Software na equipe Search, do Google.</p>
+                    </div>
+                </div>
+                <div class="card card-about">
+                    <img src="https://github.com/botelholarissa.png" alt="foto de Larissa Botelho">
+                    <div class="card-text">
+                        <h3><a href="https://github.com/botelholarissa" target="_blank">Larissa Botelho</a></h3>
+                        <p>Desenvolvedor Java e Engenheira de Software na equipe Search, do Google. </p>
+                    </div>
+                </div>
+                <div class="card card-about">
+                    <img src="https://github.com/MarleneMoraes.png" alt="foto de Marlene Moraes">
+                    <div class="card-text">
+                        <h3><a href="https://github.com/MarleneMoraes" target="_blank">Marlene Moraes</a></h3>
+                        <p>Desenvolvedor Java | Angular e Engenheira de Software na equipe Search, do Google.</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section id="contact" class="bg-primary">
+            <div class="card card-contact">
+                <h2 class="section-title">Gostou? Comece agora!</h2>
+                <form action="submit">
+                        <div class="data-form">
+                            <label id="labelName" class="label" for="name">Nome:</label>
+                            <input id="name" class="input" type="text" placeholder="Digite seu nome" required>
+                        </div>
+                        <div class="data-form">
+                            <label id="labelEmail" class="label" for="email">E-mail?</label>
+                            <input id="email" class="input" type="email" placeholder="Digite seu e-mail" required>
+                        </div>
+                    <button class="btn btn-contact">Enviar</button>
+                </form>
+            </div>
+        </section>
+
+        <footer id="footer">
+            <small>
+                Developer by Marlene Moraes &copy; Olabi Next Step 2022
+            </small>
+        </footer>
+    </main>
+</body>
+
+</html>
