@@ -1,0 +1,16 @@
+{
+    "listOfPerson": [
+        {
+            "id": 1,
+            "nome": "Julio"
+        }, 
+        {
+            "id": 2,
+            "nome": "Larissa"
+        },
+        {
+            "id": 3,
+            "nome": "Danilo"
+        }
+    ]
+}
