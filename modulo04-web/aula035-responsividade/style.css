@@ -1,0 +1,68 @@
+/*
+    Media queries: funções no CSS que adicionamos a funcionalidade para diferentes tamanhos de viewport. Apresentadas no final do arquivo
+
+    @media tipo-de-midia and (condição: breakpoint) {
+        // regras de css
+    }
+
+    all (default): todos os tipos de midia
+
+    @media all (max-width: 480px) {
+        .texto {
+            font-size: 28px;
+        }
+    }
+
+    print: somente impressoras
+
+    @media print (max-width: 480px) {
+        .texto {
+            font-size: 28px;
+        }
+    }
+
+    screen: telas de computador, tablet e smartphone
+    
+    @media screen (max-width: 480px) {
+        .texto {
+            font-size: 28px;
+        }
+    }
+
+    speech: leitores de tela em voz alta
+    
+    @media speech (max-width: 480px) {
+        .texto {
+            font-size: 28px;
+        }
+    }
+
+
+    Breakpoints mais populares:
+        - 320 a 480px: celulares
+        - 481 a 768: tablets
+        - 769 a 1024: monitores pequenos
+        - 1025 a 2200px: telas maiores
+        - a partir de 2200px: telas grandes
+
+*/
+
+.texto {
+    font-size: 16px;
+}
+
+/* Media para dispositivos móveis (de 320px a 480px) */
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .texto {
+        font-size: 20px;
+    }
+}
+
+/* Media para tablets (de 481px a 768px) */
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .texto {
+        font-size: 24px;
+    }
+}
